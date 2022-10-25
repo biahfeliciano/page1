@@ -1,0 +1,14 @@
+label {
+    color: blueviolet;
+    font-size: larger;
+}
+
+button {
+    color: crimson;
+    border-radius: 23px;
+}
+
+input {
+    color: yellowgreen;
+   border-radius: 23px;
+}
