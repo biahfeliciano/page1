@@ -1,0 +1,43 @@
+
+img{
+    border-color: rgb(5, 1, 196);
+    border-width: 6px;
+    border-style: dashed;
+    border-radius: 63%;
+}
+
+a{
+    color: rgb(247, 70, 0);
+    margin: right 50%; ;
+}
+th{
+     border-color: rgb(5, 1, 196);
+    border-width: 6px;
+    border-style: solid;
+    border-radius: 63;
+}
+ul{
+    border-color: rgb(5, 1, 196);
+    border-width: 6px;
+    border-style: solid;
+    border-radius: 63;
+}
+
+table{
+    border-color: rgb(5, 1, 196);
+    border-width: 6px;
+    border-style: solid;
+    border-radius: 63;
+}
+li{
+    border-color: rgb(5, 1, 196);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 33;
+}
+td{
+    border-color: rgb(5, 1, 196);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 63;
+}
