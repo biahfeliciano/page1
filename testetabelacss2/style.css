@@ -2,45 +2,56 @@
 img{
     border-color: rgb(5, 1, 196);
     border-width: 6px;
-    border-style: dashed;
+    border-style: double;
     border-radius: 63%;
     
 }
 
 a{
-    color: rgb(247, 70, 0);
+    color: rgb(5, 1, 196);
     margin: right 50%; ;
 }
 th{
      border-color: rgb(5, 1, 196);
     border-width: 6px;
-    border-style: solid;
+    border-style: double;
     border-radius: 63;
+    
     
     
 }
+
 ul{
     border-color: rgb(5, 1, 196);
-    border-width: 6px;
-    border-style: solid;
+    border-width: 13px;
+    border-style: outset;
     border-radius: 63;
+    background-image: url(https://pa1.narvii.com/6427/9ef3674b214e6d8a8a642a899905e4b2ca765052_hq.gif);
 }
 
 table{
     border-color: rgb(5, 1, 196);
     border-width: 6px;
-    border-style: solid;
+    border-style: double;
     border-radius: 63;
+    background-image: url(https://static.wikia.nocookie.net/liga-da-zueira-oficial/images/7/74/Bakugou_manipula%C3%A7%C3%A3o_de_explos%C3%A3o.gif/revision/latest?cb=20220423154020&path-prefix=pt-br);
 }
 li{
     border-color: rgb(5, 1, 196);
     border-width: 1px;
-    border-style: solid;
+    border-style: double;
     border-radius: 33;
 }
 td{
     border-color: rgb(5, 1, 196);
     border-width: 3px;
-    border-style: solid;
+    border-style: double;
     border-radius: 63;
 }
+ #v1{
+      border-color: rgb(5, 1, 196);
+    border-width: 3px;
+    border-style: double;
+    border-radius: 63;
+    margin: 53px;
+ }
