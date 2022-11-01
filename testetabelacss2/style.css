@@ -1,3 +1,23 @@
+header{
+    height: 73px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    position: fixed;
+    z-index: 1;
+    top: 0;
+   
+background-color: rgb(5, 1, 196);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
 
 img{
     border-color: rgb(5, 1, 196);
@@ -26,7 +46,7 @@ ul{
     border-width: 13px;
     border-style: outset;
     border-radius: 63;
-    background-image: url(https://pa1.narvii.com/6427/9ef3674b214e6d8a8a642a899905e4b2ca765052_hq.gif);
+    background-image: url(https://media.tenor.com/FZO40NgtprIAAAAM/my-hero-academia-shoto-todoroki.gif);
 }
 
 table{
@@ -34,7 +54,7 @@ table{
     border-width: 6px;
     border-style: double;
     border-radius: 63;
-    background-image: url(https://static.wikia.nocookie.net/liga-da-zueira-oficial/images/7/74/Bakugou_manipula%C3%A7%C3%A3o_de_explos%C3%A3o.gif/revision/latest?cb=20220423154020&path-prefix=pt-br);
+    background-image: url(https://64.media.tumblr.com/cce4fd209e0e8a3b59e46681c61efa84/7a70d480336e4c16-f2/s540x810/6054bad20aabfcc0132ef0b8e3b707bbef268425.gif);
 }
 li{
     border-color: rgb(5, 1, 196);
