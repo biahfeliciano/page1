@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 header {
     width: 2330px;
     height: 103px;
@@ -24,7 +25,10 @@ img {
     border-radius: 50%;
 }
 
+
+
 a {
+font-family: 'Caveat', cursive;
     color: rgb(235, 105, 5);
     margin: 10px;
 }
