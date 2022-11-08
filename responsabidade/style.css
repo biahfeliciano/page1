@@ -1,0 +1,67 @@
+header {
+    width: 2330px;
+    height: 103px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    background-color: rgb(5, 1, 196);
+}
+
+
+
+    .header {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+
+img {
+    border-color: rgb(5, 1, 196);
+    border-style: double;
+    border-radius: 50%;
+   
+    
+}
+img{
+    width: 133px;
+    height: 133px;
+}
+
+@media screen (max-device-height: 533) {
+    img {
+     width: 100px;
+     height: 100px;
+}
+
+a {
+    color: rgb(235, 105, 5);
+    margin: 10px;
+}
+
+th {
+    border-color: rgb(5, 1, 196);
+    border-style: double;
+}
+
+
+table {
+    border-color: rgb(5, 1, 196);
+    border-style: double;
+    background-image: url(https://64.media.tumblr.com/54dfb89cb67153f27ab8a91b76ea3a2e/tumblr_owqxnzaaYC1vxc9qjo1_r1_640.gif);
+}
+
+
+td {
+    border-color: rgb(5, 1, 196);
+    border-style: double;
+
+}
+.img-header{
+    width: 80px;
+    height: 80px;
+}
