@@ -13,6 +13,53 @@
 
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">BlindadeX.com</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Inicio <span class="sr-only">(página atual)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Loja</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Login
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Ação</a>
+          <a class="dropdown-item" href="#">Outra ação</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Algo mais aqui</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Sair</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+      <button type="button" class="btn btn-outline-dark">Pesquisar</button>
+    </form>
+  </div>
+
+</nav>
+<div class="jumbotron">
+  <h1 class="display-4">Bem-Vindo!</h1>
+  <p class="lead">Prazer conhecelo , Quer Fazer o Login em nosso site para ficar por dentro de tudo.</p>
+  <hr class="my-4">
+  
+  <a class="btn btn-primary btn-lg" href="#" role="button">Seguir</a>
+</div>
+
+  </div>
+  </div>
+  </div>
    <div> 
 <form>
   <div class="form-row">
@@ -36,7 +83,7 @@
         <div class="input-group-prepend">
           <span class="input-group-text" id="inputGroupPrepend3">@</span>
         </div>
-        <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Usuário" aria-describedby="inputGroupPrepend3" required>
+        <input type="text" class="form-control is-valid" id="validationServer02"placeholder="Usuário" aria-describedby="inputGroupPrepend3" required>
         <div class="invalid-feedback">
           Por favor, escolha um nome de usuário.
         </div>
@@ -46,27 +93,52 @@
   <div class="form-row">
     <div class="col-md-6 mb-3">
       <label for="validationServer03">Cidade</label>
-      <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="Cidade" required>
+      <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Cidade" required>
       <div class="invalid-feedback">
         Por favor, informe uma cidade válida.
       </div>
     </div>
     <div class="col-md-3 mb-3">
       <label for="validationServer04">Estado</label>
-      <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="Estado" required>
+      <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Estado" required>
       <div class="invalid-feedback">
         Por favor, informe um estado válido.
       </div>
     </div>
     <div class="col-md-3 mb-3">
       <label for="validationServer05">CEP</label>
-      <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="CEP" required>
+      <input type="text" class="form-control is-valid" id="validationServer02" placeholder="CEP" required>
       <div class="invalid-feedback">
         Por favor, informe um CEP válido.
       </div>
     </div>
   </div>
-  <div class="form-group">
+  
+    </div>
+  </div>
+
+     
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text">R$</span>
+  </div>
+  <input type="text" class="form-control" aria-label="Quantia">
+  <div class="input-group-append">
+    <span class="input-group-text">.00</span>
+  </div>
+</div>
+
+<div class="input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text">Insira seu Texto Aqui</span>
+  </div>
+  <textarea class="form-control" aria-label="Com textarea"></textarea>
+</div> 
+      </div>
+    </div>
+
+    <div class="form-group">
     <div class="form-check">
       <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
       <label class="form-check-label" for="invalidCheck3">
@@ -74,10 +146,10 @@
       </label>
       <div class="invalid-feedback">
         Você deve concordar, antes de continuar.
-      </div>
-    </div>
+
+          </div>
   </div>
-  <button class="btn btn-primary" type="submit">ENVIAR</button>
+  <button type="button" class="btn btn-outline-success">ENVIAR</button>
 </form>
 </div>
 
