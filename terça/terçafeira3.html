@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exemplo com Script</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+     <br>
+     <h1>—————— ◦°•♛•°◦ ——————</h1>
+    <h1>𝖉𝖆𝖗𝖐𝖓𝖞𝖘𝖘³³</h1>
+    <h2>▂ ▃ ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ ▃ ▂▂ ▃ ▄ ▅ ▆ ▇ █ █▂ ▃ ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ ▃ ▂▂ ▃ ▄ ▅ ▆ ▇ █ █</h2>
+      <br>
+        <br>
+
+
+    <form id="formulario">
+        <h1 id="demo"></h1>
+        <input type="text" placeholder="Digite um número" id="Peso">
+        <input type="text" placeholder="Digite um número" id="Altura">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script>
+        var form = document.getElementById('formulario')
+        let p =  document.getElementById ('Peso')
+        let a = document.getElementById ('Altura')
+        
+        form.addEventListener('submit', function ( e ) {
+
+            Peso = p.value
+            Altura = a.value
+            const imc = Peso/(Altura*Altura)
+
+            if ( imc >20) {
+                alert ('magrinho pá krl ele alá!!!')
+            }
+
+            if (imc >=20 && imc <25 ){
+                alert ("alá ele mó padrão")
+            }
+
+            if ( imc >=25 && imc <28){
+                alert ("alá tá ficando meio gordin ele")
+            }
+            
+            if (imc >=28 && imc<31){
+                 alert ('rapaizzzzzzz!!')
+
+            }
+
+        if (imc >=31 ){
+            alert ('Avó do Nelson come nuggets')
+        }
+                   
+            document.getElementById("demo").innerHTML = 'este é o seu IMC '+ imc
+            e.preventDefault();
+});
+    </script>
+
+    <h1>✦•·············•✦•·············•✦╚═════ஓ๑♡๑ஓ═════╝✦•·············•✦•·············•✦</h1>
+
+   
+</body>
+
+</html>

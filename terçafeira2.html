@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exemplo com Script</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+     <br>
+     <h1>—————— ◦°•♛•°◦ ——————</h1>
+    <h1>𝖉𝖆𝖗𝖐𝖓𝖞𝖘𝖘³³</h1>
+    <h2>▂ ▃ ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ ▃ ▂▂ ▃ ▄ ▅ ▆ ▇ █ █</h2>
+      <br>
+        <br>
+
+
+    <form id="formulario">
+        <h1 id="demo"></h1>
+        <input type="number" placeholder="Digite um número" id="number1">
+        <input type="number" placeholder="Digite um número" id="number2">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script>
+
+        var form = document.getElementById('formulario');
+        let num1 = document.getElementById('number1'); 
+        let num2 = document.getElementById('number2');
+        form.addEventListener('submit', function ( e ) {
+
+            let n1 = num1. value 
+            let n2 = num2. value 
+
+            let maior = 0;
+            let menor = 0;
+            if(n1==n2)
+                { 
+                    alert ('Os Numeros São iguais')
+                }
+            else{
+            if (n1>n2){
+                maior = n1
+                menor = n2
+            }
+            else{
+                maior = n2
+                menor = n1 
+                }
+            document.getElementById("demo").innerHTML = 'Maior='+maior+' Menor='+menor;
+            }
+                
+            
+    e.preventDefault();
+});
+    </script>
+
+    <h1>╚═════ஓ๑♡๑ஓ═════╝✦•·············•✦•·············•✦</h1>
+
+   
+</body>
+
+</html>

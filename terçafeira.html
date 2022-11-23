@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exemplo com Script</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+     <br>
+     <h1>—————— ◦°•♛•°◦ ——————</h1>
+    <h1>𝖉𝖆𝖗𝖐𝖓𝖞𝖘𝖘³³</h1>
+    <h2>▂ ▃ ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ ▃ ▂▂ ▃ ▄ ▅ ▆ ▇ █ █</h2>
+      <br>
+        <br>
+
+
+    <form id="formulario">
+        <h1 id="demo"></h1>
+        <input type="number" placeholder="Digite um número" id="ano">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script>
+
+        var form = document.getElementById('formulario');
+        //Recuperei o ano de nascimento da pessoa
+        let Ano = document.getElementById('ano'); 
+
+        form.addEventListener('submit', function ( e ) {
+        // Subtrai o ano atual do ano de nascimento para descobrir a idade
+        let Idade = 2022 - Ano.value;
+
+        //Condição para verificar se a pessoa tem idade suficiente para votar
+        if(Idade>=16){
+            alert('Pode votar')
+        }
+        else{
+            alert('Não pode votar')
+        }
+
+    document.getElementById("demo").innerHTML = 'Idade= '+Idade;
+    e.preventDefault();
+});
+
+</script>
+</body>
+
+</html>
